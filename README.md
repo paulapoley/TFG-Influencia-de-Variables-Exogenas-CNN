@@ -5,7 +5,7 @@ Título trabajo fin de grado (TFG) = Influencia de Variables Exógenas en la Det
 
 ## Contenidos
 
-- **Memoria del TFG**: [Memoria_TFG.pdf](docs/TFG -PAULA POLEY.pdf)
+- **Memoria del TFG**: [Memoria_TFG.pdf](docs/TFG-PAULAPOLEY.pdf)
 - **Presentación del TFG**: [Presentación_TFG.pptx](docs/Presentación_TFG.pptx)
 - **Capturas de Pantalla**: [Capturas_Aplicación](docs/Capturas_Aplicación/)
 - **Video de la Aplicación**: [Video_Aplicación.mp4](docs/Video_Aplicación.mp4)
