@@ -1,0 +1,12 @@
+Para ejecutar la aplicación Dermocheck, se deben seguir estos pasos:
+
+
+1.Se descarga e instala Visual Studio Code (VSCode).
+
+2.Se instala Streamlit: En la pestaña "Terminal" de VSCode, se debe ejecutar el comando "pip install streamlit".
+
+3.Se descarga y abre el archivo "App.py" en VSCode, el cual contiene el código fuente de la aplicación.
+
+4.Una vez que el archivo esté abierto y se encuentre en el directorio correcto, se debe ejecutar la aplicación Dermocheck utilizando el siguiente comando: "streamlit run App.py".
+
+5.Después de ejecutar el comando, se iniciará un servidor local de Streamlit y la aplicación estará disponible en el navegador web en la dirección "localhost:8501". Los usuarios pueden acceder a la aplicación desde cualquier navegador web compatible.
