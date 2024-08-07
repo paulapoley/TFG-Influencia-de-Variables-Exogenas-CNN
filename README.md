@@ -1,7 +1,7 @@
 # Trabajo Fin de Grado 
 Este repositorio contiene el código, documentación y recursos relacionados con el Trabajo de Fin de Grado sobre la detección de enfermedades cutáneas mediante redes neuronales convolucionales (CNN). El proyecto incluye una aplicación web para la evaluación de lesiones cutáneas.
 
-# Título = Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas.
+**Título** = Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas.
 
 ## Contenidos
 
