@@ -1,6 +1,6 @@
-## Trabajo Fin de Grado
+# Trabajo Fin de Grado
 
-# Título: Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas
+## Título: Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas
 Este repositorio contiene el código, la documentación y los recursos relacionados con el Trabajo de Fin de Grado (TFG) sobre la detección de enfermedades cutáneas utilizando redes neuronales convolucionales (CNN) y la inclusión de variables exógenas.
 
 ## 1. Objetivo del Estudio
