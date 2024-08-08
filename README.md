@@ -1,4 +1,5 @@
-# Trabajo Fin de Grado
+# TRABAJO FIN DE GRADO   
+
 
 ## Título: Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas
 Este repositorio contiene el código, la documentación y los recursos relacionados con el Trabajo de Fin de Grado (TFG) sobre la detección de enfermedades cutáneas utilizando redes neuronales convolucionales (CNN) y la inclusión de variables exógenas.
@@ -10,6 +11,7 @@ Este TFG investiga cómo las variables exógenas (ubicación de la lesión, edad
 - **Modelo CNN Con Variables Exógenas:** Se incorporan datos adicionales (variables exógenas) para refinar la clasificación.
 
 
+
 ## 2. Metodología
 Se desarrollaron y compararon varios enfoques de detección de enfermedades cutáneas utilizando diferentes arquitecturas de CNN, tanto preentrenadas como diseñadas desde cero:
 
@@ -17,6 +19,7 @@ Se desarrollaron y compararon varios enfoques de detección de enfermedades cut�
 - **Modelo Personalizado:** CNN diseñada específicamente para este estudio.
 
 Estos modelos fueron entrenados y evaluados utilizando el conjunto de datos **Skin Cancer MNIST: HAM10000**, que contiene una gran colección de imágenes dermatoscópicas de múltiples lesiones pigmentadas, abarcando siete afecciones dermatológicas distintas.
+
 
 ## 3. Contenidos del Repositorio
 ### 3.1. Documentos del TFG
@@ -30,6 +33,7 @@ Estos modelos fueron entrenados y evaluados utilizando el conjunto de datos **Sk
 ### 3.3. Archivos Adicionales
 - **Descripción del Proyecto:** [README.md](README.md) - Este archivo con la descripción general del proyecto.
 - **Instrucciones para Ejecutar:** [ejecuta.txt](ejecuta.txt) - Archivo con las instrucciones para ejecutar el proyecto.
+
 
 
 ## 4. Entorno de Desarrollo
