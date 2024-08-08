@@ -1,31 +1,52 @@
-# Trabajo Fin de Grado 
-Este repositorio contiene el código, documentación y recursos relacionados con el Trabajo de Fin de Grado sobre la detección de enfermedades cutáneas mediante redes neuronales convolucionales (CNN). El proyecto incluye una aplicación web para la evaluación de lesiones cutáneas.
+## Trabajo Fin de Grado
 
-**Título** = Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas.
+# Título: Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales y Análisis de Imágenes Médicas
+Este repositorio contiene el código, la documentación y los recursos relacionados con el Trabajo de Fin de Grado (TFG) sobre la detección de enfermedades cutáneas utilizando redes neuronales convolucionales (CNN) y la inclusión de variables exógenas.
 
-**Objetivo del Estudio**
-Este Trabajo de Fin de Grado estudia cómo variables exógenas afectan la capacidad predictiva de los modelos de clasificación de imágenes. Se centra en la mejora de la precisión y eficacia en la detección de enfermedades cutáneas mediante el uso de redes neuronales convolucionales (CNN) y la inclusión de variables exógenas, tales como la ubicación de la lesión, la edad, el sexo del paciente y el tipo de diagnóstico. 
+## 1. Objetivo del Estudio
+Este TFG investiga cómo las variables exógenas (ubicación de la lesión, edad, sexo del paciente y tipo de diagnóstico) influyen en la capacidad predictiva de los modelos de clasificación de imágenes. Se busca mejorar la precisión y eficacia en la detección de enfermedades cutáneas a través de:
 
-**Metodología**
-Se desarrollaron dos enfoques de detección utilizando CNN:
+- **Modelo CNN Sin Variables Exógenas:** Solo se utilizan imágenes para la detección.
+- **Modelo CNN Con Variables Exógenas:** Se incorporan datos adicionales (variables exógenas) para refinar la clasificación.
 
--Modelo Sin Variables Exógenas: Un enfoque tradicional basado únicamente en las características visuales de las imágenes de lesiones cutáneas.
--Modelo Con Variables Exógenas: Un enfoque mejorado que incorpora datos adicionales (ubicación de la lesión, edad, sexo y diagnóstico) para refinar la clasificación.
 
-Se utilizaron varias arquitecturas de modelos preentrenados, como DenseNet121, MobileNetV2, ResNet50, EfficientNetB0, Xception, así como una CNN diseñada desde cero. Estos modelos se entrenaron con una colección de imágenes de alta resolución de lesiones cutáneas etiquetadas, abarcando siete afecciones dermatológicas distintas.
+## 2. Metodología
+Se desarrollaron y compararon varios enfoques de detección de enfermedades cutáneas utilizando diferentes arquitecturas de CNN, tanto preentrenadas como diseñadas desde cero:
 
-## Contenidos
+- **Modelos Preentrenados:** DenseNet121, MobileNetV2, ResNet50, EfficientNetB0, Xception.
+- **Modelo Personalizado:** CNN diseñada específicamente para este estudio.
 
-- **Documentos del TFG --> /docs**:
-  - [TFG-PAULAPOLEY.pdf](docs/TFG-PAULAPOLEY.pdf): Memoria del TFG.
-  - [presentacion-TFG-PaulaPoley.pdf](docs/presentacion-TFG-PaulaPoley.pdf): Presentación del TFG.
+Estos modelos fueron entrenados y evaluados utilizando el conjunto de datos **Skin Cancer MNIST: HAM10000**, que contiene una gran colección de imágenes dermatoscópicas de múltiples lesiones pigmentadas, abarcando siete afecciones dermatológicas distintas.
 
-- **Código Fuente --> /src**:
-  - `App.py` en la carpeta `src`: Archivo principal del código de la aplicación web.
-  - `codigo_ejecutado/` en la carpeta `src`: Carpeta que contiene el código ejecutado.
+## 3. Contenidos del Repositorio
+### 3.1. Documentos del TFG
+- **Memoria del TFG:** [TFG-PAULAPOLEY.pdf](docs/TFG-PAULAPOLEY.pdf)
+- **Presentación del TFG:** [presentacion-TFG-PaulaPoley.pdf](docs/presentacion-TFG-PaulaPoley.pdf)
 
-- **Archivos Adicionales**:
-  - [readme.md](README.md): Este archivo con la descripción del proyecto.
-  - [ejecuta.txt](ejecuta.txt): Archivo con instrucciones para ejecutar el proyecto.
+### 3.2. Código Fuente
+- **Aplicación Web:** [`App.py`](src/App.py) - Archivo principal del código de la aplicación web.
+- **Código Ejecutado:** [`codigo_ejecutado/`](src/codigo_ejecutado/) - Carpeta con el código ejecutado durante el estudio.
+
+### 3.3. Archivos Adicionales
+- **Descripción del Proyecto:** [README.md](README.md) - Este archivo con la descripción general del proyecto.
+- **Instrucciones para Ejecutar:** [ejecuta.txt](ejecuta.txt) - Archivo con las instrucciones para ejecutar el proyecto.
+
+
+## 4. Entorno de Desarrollo
+### 4.1. Jupyter Notebook
+
+El entorno de desarrollo elegido para la implementación del sistema es **Jupyter Notebook** utilizada  **Anaconda**, una distribución libre y gratuita diseñada específicamente para la ciencia de datos y el aprendizaje automático.
+
+### 4.2. Visual Studio Code (VS Code)
+En el desarrollo de la plataforma web de predicción, se utilizó **Visual Studio Code (VS Code)** el cual permite una integración fluida con herramientas de desarrollo como **Streamlit**, que se utilizó en el proyecto para crear la aplicación web interactiva con Python. 
+
+
+## 5. Cómo Ejecutar el Proyecto
+
+Para ejecutar este proyecto, sigue las instrucciones detalladas en el archivo [ejecuta.txt](ejecuta.txt).
+
+---
+
+Este repositorio es parte del Trabajo de Fin de Grado de Paula Poley. Para más detalles, revisa la [memoria del TFG](docs/TFG-PAULAPOLEY.pdf) o la [presentación del TFG](docs/presentacion-TFG-PaulaPoley.pdf).
 
 
