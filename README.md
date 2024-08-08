@@ -20,20 +20,27 @@ Se desarrollaron y compararon varios enfoques de detección de enfermedades cut�
 
 Estos modelos fueron entrenados y evaluados utilizando el conjunto de datos **Skin Cancer MNIST: HAM10000**, que contiene una gran colección de imágenes dermatoscópicas de múltiples lesiones pigmentadas, abarcando siete afecciones dermatológicas distintas.
 
-
 ## 3. Contenidos del Repositorio
-### 3.1. Documentos del TFG
-- **Memoria del TFG:** [TFG-PAULAPOLEY.pdf](docs/TFG-PAULAPOLEY.pdf)
-- **Presentación del TFG:** [presentacion-TFG-PaulaPoley.pdf](docs/presentacion-TFG-PaulaPoley.pdf)
+
+El repositorio está organizado en dos carpetas principales: `/docs` y `/src`. Cada una contiene diferentes componentes del Trabajo de Fin de Grado (TFG).
+
+### 3.1. Documentos 
+La carpeta `/docs` incluye toda la documentación relacionada con el TFG:
+
+- **Memoria del TFG:** [TFG-PAULAPOLEY.pdf](docs/TFG-PAULAPOLEY.pdf) - Documento completo que detalla el desarrollo y resultados del proyecto.
+- **Presentación del TFG:** [presentacion-TFG-PaulaPoley.pdf](docs/presentacion-TFG-PaulaPoley.pdf) - Presentación utilizada para la defensa del TFG.
 
 ### 3.2. Código Fuente
-- **Aplicación Web:** [`App.py`](src/App.py) - Archivo principal del código de la aplicación web.
-- **Código Ejecutado:** [`codigo_ejecutado/`](src/codigo_ejecutado/) - Carpeta con el código ejecutado durante el estudio.
+La carpeta `/src` contiene el código fuente del proyecto:
+
+- **Aplicación Web:** [`App.py`](src/App.py) - Archivo principal que implementa la aplicación web desarrollada.
+- **Código Ejecutado:** [`codigo_ejecutado/`](src/codigo_ejecutado/) - Directorio con el código ejecutado durante los experimentos y análisis.
 
 ### 3.3. Archivos Adicionales
-- **Descripción del Proyecto:** [README.md](README.md) - Este archivo con la descripción general del proyecto.
-- **Instrucciones para Ejecutar:** [ejecuta.txt](ejecuta.txt) - Archivo con las instrucciones para ejecutar el proyecto.
+Además, el repositorio incluye otros archivos relevantes:
 
+- **Descripción del Proyecto:** [README.md](README.md) - Este archivo, que ofrece una descripción general del proyecto y sus componentes.
+- **Instrucciones de Ejecución:** [ejecuta.txt](ejecuta.txt) - Archivo con las instrucciones detalladas para la ejecución del proyecto.
 
 
 ## 4. Entorno de Desarrollo
