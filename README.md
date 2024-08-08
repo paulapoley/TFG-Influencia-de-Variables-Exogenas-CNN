@@ -48,7 +48,7 @@ Además, el repositorio incluye otros archivos relevantes:
 
 El entorno de desarrollo elegido para la implementación del sistema es **Jupyter Notebook** utilizada  **Anaconda**, una distribución libre y gratuita diseñada específicamente para la ciencia de datos y el aprendizaje automático.
 
-### 4.2. Visual Studio Code (VS Code)
+### 4.2. Visual Studio Code (VS Code) - Streamlit
 En el desarrollo de la plataforma web de predicción, se utilizó **Visual Studio Code (VS Code)** el cual permite una integración fluida con herramientas de desarrollo como **Streamlit**, que se utilizó en el proyecto para crear la aplicación web interactiva con Python. 
 
 
